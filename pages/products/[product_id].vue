@@ -2,8 +2,8 @@
     <div>
         <div class="grid grid-cols-2 transition shadow-md place-items-center py-10">
             <div class="grid">
-                <img class="w-40 h-40 object-contain mb-2" :src="product.image" :alt="product.title">
-                <p class="text-center text-green-500 text-sm font-semibold m-1">In stock</p>
+                <img class="min-w-40 min-h-40 max-w-80 max-h-80 object-contain mb-2 hover:scale-110 transition" :src="product.image" :alt="product.title">
+                <p class="text-center text-green-500 font-semibold m-3">In stock</p>
             </div>
             <div class="grid items-center justify-items-center">
                 <p class="text-center font-semibold m-1 text-3xl max-w-80">{{ product.title }}</p>
