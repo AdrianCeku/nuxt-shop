@@ -1,7 +1,5 @@
 <template>
-    <div>
-        <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto"> -->
-
+    <div class="font-[Roboto]">
         <header class="shadow-md bg-white">
             <nav class="container mx-auto p-4 flex justify-between">
                 <NuxtLink to="/"><h1 class="font-extrabold text-xl md:text-3xl"><span class="text-yellow-400">Brand Store</span> 😱🔥</h1></NuxtLink>
