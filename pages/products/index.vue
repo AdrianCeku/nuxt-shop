@@ -1,0 +1,25 @@
+<template>
+    <div class="container mx-auto">
+        <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4">
+            <div v-for="product in products" class="m-5">
+                <NuxtLink :to="`/products/${product.id}`">
+                    <div class="grid h-full w-full grid-cols-1 items-center justify-items-center rounded-md border-4 border-slate-200  border-opacity-100 p-4 hover:scale-105 transition">
+                        <img class="w-40 h-40 object-contain mb-2" :src="product.image" :alt="product.title">
+                        <p class="text-center text-green-500 text-sm font-semibold m-1">In stock</p>
+                        <p class="text-center font-semibold m-1">{{ product.title }}</p>
+                        <p class="text-center m-1 font-bold">{{ product.price }}€</p>
+                        
+                    </div>
+                </NuxtLink>
+            </div>
+        </div>
+    </div>
+</template>
+
+<script setup>
+    const { data:products } = await useFetch("https://fakestoreapi.com/products")
+</script>
+
+<style scoped>
+
+</style>
