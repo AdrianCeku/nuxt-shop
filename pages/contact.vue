@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="p-4">
         <h1 class="font-bold text-xl">Email</h1>
         <p>Technical Difficulties: <a class="text-yellow-400 font-medium transition hover:text-yellow-600 hover:font-bold" href=mailto:support@brandstore.com>support@brandstore.com</a></p>
         <p>Businessinquiries: <a class="text-yellow-400 font-medium transition hover:text-yellow-600 hover:font-bold" href=mailto:support@brandstore.com>inquiry@brandstore.com</a></p>

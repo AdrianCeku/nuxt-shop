@@ -14,7 +14,7 @@
             </nav>
         </header>
 
-        <div class="shadow-md mx-auto p-4">
+        <div class="shadow-md mx-auto">
             <slot />
         </div>
 

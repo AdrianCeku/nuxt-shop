@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="p-4">
         <div class='impressum'>
             <h1>Impressum</h1><p>Angaben gemäß § 5 TMG</p><p>Max Muster <br> 
             Musterweg<br> 

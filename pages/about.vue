@@ -1,6 +1,6 @@
 <template>
-    <div class="grid">
-        <div class="flex gap-4 flex-wrap place-self-center">
+    <div class="grid mx-auto grid-cols-1">
+        <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 gap-4 place-self-center p-10">
             <div class="">
                 <img class="rounded-lg max-h-64 transition hover:scale-105" src="https://t3.ftcdn.net/jpg/02/43/12/34/360_F_243123463_zTooub557xEWABDLk0jJklDyLSGl2jrr.jpg">
                 <h2 class="font-bold text-xl text-center p-4">Max Mustermann</h2>

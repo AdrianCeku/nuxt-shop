@@ -12,7 +12,7 @@
                         <p class="text-center text-green-500 text-sm font-semibold m-1">In stock</p>
                         <p class="text-center font-semibold m-1">{{ product.title }}</p>
                         <p class="text-center m-1 font-bold">{{ product.price }}€</p>
-                        <button class="text-center bg-yellow-400 rounded-full mt-5 p-1 hover:scale-105 hover:bg-yellow-300 transition font-semibold px-5">View more</button>
+                        
                     </div>
                 </NuxtLink>
             </div>
@@ -22,8 +22,8 @@
 
 <script setup>
     const {data:Categories} = await useFetch("https://fakestoreapi.com/products/categories")
-
-    const { data:products } = await useFetch("https://fakestoreapi.com/products")
+    const { category } = useRoute().params
+    const { data:products } = await useFetch(`https://fakestoreapi.com/products/category/${category}`)
 </script>
 
 <style scoped>
