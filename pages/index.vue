@@ -1,6 +1,6 @@
 <template>
     <div class="container mx-auto grid place-items-center">
-        <h1 class="text-4xl font-bold mt-4 mb-10">Welcome to <span class="text-yellow-400 font-extrabold">Brand Store</span>😱🔥</h1>
+        <h1 class="text-4xl font-bold mt-4 mb-10">Welcome to <span class="text-yellow-400 font-extrabold">Brand Store</span> 😱🔥</h1>
         <p class="mb-10"> This is an example project</p>
         <div class="grid gap-4 grid-flow-col grid-rows-3 xl:grid-cols-3 xl:grid-rows-1 " >
             <div class="grid justify-items-center w-300">
