@@ -5,7 +5,7 @@
                 <p class="font-medium cursor-pointer">Where do you ship?</p>
             </summary>
             <div class="mx-10 p-4 rounded-xl bg-slate-100">
-                <p> We ship everywhere wihtin the EU and America.</p>
+                <p> We ship everywhere within the EU and America.</p>
             </div>
 		</details>
 		<details class="">
