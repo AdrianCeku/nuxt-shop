@@ -23,16 +23,6 @@
             </div>
         </div>
 
-        <div class="text-center m-10 text-xl max-w-5xl mx-auto font-400">
-            <p class=""> 
-                Welcome to <span class="text-yellow-400">Brand Store 😱🔥</span> where we've mastered the art of selling things! At our online emporium, we offer a curated selection of items that you didn't know you needed until you stumbled upon our website. <br> Our store is so generic that we've even surprised ourselves with the sheer averageness of our products.<br>
-
-                <br>Picture this: a virtual shelf filled with products that may or may not change your life in the most inconspicuous ways. From "Generic Brand T-Shirts" to "Essential Things You Probably Already Own," we've got it all. Our limited edition collection includes such classics as <span class="text-yellow-400">Unbranded Water Bottles</span> and <span class="text-yellow-400">Plain White Socks</span>.<br>
-
-                <br>Don't be fooled by our lack of uniqueness; we take pride in providing you with the things you never knew you were looking for. Whether you're searching for the perfect gift for someone you vaguely know or just want to treat yourself to something ordinary, <span class="text-yellow-400">Brand Store 😱🔥</span> is the place to be. Embrace the mediocrity, revel in the simplicity, and join us on a journey of unremarkable shopping experiences.  
-                <br><br><span class="text-yellow-400 text-2xl font-bold">Because when it comes to being average, we're exceptionally good at it!</span>
-            </p>
-        </div>
     </div>
 </template>
 
