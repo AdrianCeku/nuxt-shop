@@ -16,13 +16,17 @@
         </div>
 
         <div class="mt-5 text-2xl p-4 shadow-md">
-            <p class="font-medium">Description</p>
-            <p class="my-2 text-xl max-w-6xl">{{ product.description }}</p>
+            <details class="bg-slate-100 p-3">
+                <summary class="cursor-pointer">            
+                    <p class="font-medium inline">Product Details</p>
+                </summary> 
+                <p class="my-2 text-xl max-w-6xl ">{{ product.description }}</p>
+            </details>
         </div>
         <div class="mt-5 text-2xl p-4">
             <p class="font-bold text-xl p-1">Similar Products</p>
-            <div class="flex flex-row flex-wrap mt-5">
-                <div v-for="product in similar_products" class="grid grid-cols-1 transition shadow-md items-center justify-items-center w-80 mx-auto mb-5">
+            <div class="flex flex-row mt-5">
+                <div v-for="product in similar_products" class="grid grid-rows-1 transition shadow-md items-center justify-items-center w-80 mx-auto mb-5 hover:scale-105 transition">
                     <NuxtLink :to="`/products/${product.id}?category=${category}`">
                         <img class="w-40 h-40 object-contain mb-2 mx-auto" :src="product.image" :alt="product.title">
                         <p class="text-center font-semibold m-1">{{ product.title }}</p>
@@ -44,5 +48,11 @@
 </script>
 
 <style scoped>
+details > summary {
+    list-style-type: "👉";
+}
 
+details[open] > summary {
+    list-style-type: "👇";
+}
 </style>

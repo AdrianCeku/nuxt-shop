@@ -1,16 +1,16 @@
 <template>
-    <div class="select-none pb-4">
+    <div class="select-none pb-4 ">
 		<details class="">
-            <summary class="cursor-pointer transition ease-in-out rounded-2xl bg-slate-100 m-5 p-4 shadow-sm text-xl hover:bg-slate-300"> 
-                <p class="font-medium cursor-pointer">Where do you ship?</p>
+            <summary class="cursor-pointer transition ease-in-out rounded-2xl bg-slate-100 m-5 p-4 shadow-sm text-xl hover:bg-slate-300 inline"> 
+                <p class="font-medium cursor-pointer"><span></span> Where do you ship?</p>
             </summary>
             <div class="mx-10 p-4 rounded-xl bg-slate-100">
-                <p> We ship everywhere within the EU and America.</p>
+                <p> We ship everywhere within the <span class="font-semibold"> EU and America.</span></p>
             </div>
 		</details>
 		<details class="">
-            <summary class="cursor-pointer transition ease-in-out rounded-2xl bg-slate-100 m-5 p-4 shadow-sm text-xl hover:bg-slate-300"> 
-                <p class="font-medium cursor-pointer">How much does shipping cost?</p>
+            <summary class="cursor-pointer transition ease-in-out rounded-2xl bg-slate-100 m-5 p-4 shadow-sm text-xl hover:bg-slate-300 inline"> 
+                <p class="font-medium cursor-pointer"><span></span> How much does shipping cost?</p>
             </summary>
             <div class="mx-10 p-4 rounded-xl bg-slate-100">
                 <p> Shipping costs within Germany are <span class="font-semibold">5€</span></p>
@@ -19,8 +19,8 @@
             </div>
 		</details>
 		<details class="">
-            <summary class="cursor-pointer transition ease-in-out rounded-2xl bg-slate-100 m-5 p-4 shadow-sm text-xl  hover:bg-slate-300 "> 
-                <p class="font-medium ">How long does Shipping take?</p>
+            <summary class="cursor-pointer transition ease-in-out rounded-2xl bg-slate-100 m-5 p-4 shadow-sm text-xl  hover:bg-slate-300 inline"> 
+                <p class="font-medium"><span></span> How long does Shipping take?</p>
             </summary>
             <div class="mx-10 mb-5 p-4 rounded-xl bg-slate-100">
                 <p> Orders to Germany usually get delivered within <span class="font-semibold"> 2-3 business days</span>. </p>
@@ -36,4 +36,8 @@
 </script>
 
 <style scoped>
+    span::before{
+        content: "👉";
+        padding-right: 0.5rem;
+    }
 </style>

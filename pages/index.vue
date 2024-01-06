@@ -3,7 +3,7 @@
         <h1 class="text-4xl font-bold mt-4 mb-10">Welcome to <span class="text-yellow-400 font-extrabold">Brand Store</span> 😱🔥</h1>
         <p class="mb-10"> This is an example project</p>
 
-        <div class="grid gap-4 grid-flow-col grid-rows-3 xl:grid-cols-3 xl:grid-rows-1 " >
+        <div class="grid gap-4 grid-flow-col grid-rows-3 xl:grid-cols-3 xl:grid-rows-1 mt-5" >
             <div class="grid justify-items-center w-300">
                 <img class="rounded-lg max-h-64 object-fill hover:scale-105 transition" src="https://media.istockphoto.com/id/1138429558/photo/rows-of-shelves.jpg?s=1024x1024&w=is&k=20&c=bMRYi_ay8T0EtezBRkK-JJ98LpgcC8o6ri2Ixo-1l4c=">
                 <h2 class="font-bold text-xl text-center p-4">Local Business</h2>
@@ -21,7 +21,7 @@
             </div>
         </div>
 
-        <div class="text-center m-10 text-xl max-w-5xl mx-auto font-400">
+        <div class="text-center m-10 mt-20 text-xl max-w-5xl mx-auto font-400">
             <p class=""> 
                 <p>Welcome to <span class="text-yellow-400">Brand Store 😱🔥</span> where we've mastered the art of selling things! At our online emporium, we offer a curated selection of items that you didn't know you needed until you stumbled upon our website. <br> Our store is so generic that we've even surprised ourselves with the sheer averageness of our products.</p>
                 <p><br>Picture this: a virtual shelf filled with products that may or may not change your life in the most inconspicuous ways. From "Generic Brand T-Shirts" to "Essential Things You Probably Already Own," we've got it all. Our limited edition collection includes such classics as <span class="text-yellow-400">Unbranded Water Bottles</span> and <span class="text-yellow-400">Plain White Socks</span>.</p>
